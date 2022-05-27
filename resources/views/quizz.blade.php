@@ -44,9 +44,6 @@
     <input type="submit" id="register" value="next" disabled />
     <!-- <input type="submit" id="radio_id" name="submit" value="next" disabled /> -->
     <a href={{"/next/".$question_id-1}}>back</a>
-
-    
-
 </body>
 <script>
   var minutes = 0;
@@ -71,7 +68,6 @@
       }
     }, 1000);
   }
-
 
   window.onload = function() {
      var minutes_data = getCookie("minutes");
@@ -114,8 +110,6 @@
 
 <script>
     function display() {
-
-
         // new
         let rates = document.getElementsByName('answer');
         rates.forEach((rate) => {
@@ -124,14 +118,6 @@
             }
         });
 
-    }
-
-
-   
-    // new script
-
-    
+    }    
 </script>
-
-
 </html>

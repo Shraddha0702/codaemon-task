@@ -8,8 +8,8 @@
 </head>
 <body>
     <h2>Your time is over</h2>
-<h3>Your Score is {{$score}}</h3>
-<h2>Your time is over</h2>
+    <h3>Your Score is {{$score}}</h3>
+    <h2>Your time is over</h2>
 </body>
 
 </html>

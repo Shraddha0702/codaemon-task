@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  
 </head>
 <body>
-    
-
-
 <section class="vh-100" style="background-color: #9A616D;">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -41,15 +38,10 @@
 
                   
                 <input type="hidden" name="question_id" value="1">
-    
-
                   <div class="pt-1 mb-4">
                   <input type="submit" class="btn btn-dark btn-lg btn-block" name="submit" value="Start Quizz">
-                  </div>
-
-                 
+                  </div>           
                 </form>
-
               </div>
             </div>
           </div>

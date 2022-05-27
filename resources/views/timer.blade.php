@@ -398,10 +398,6 @@
 </style>
 
 <body>
-
-
-
-    <!------ Include the above in your HEAD tag ---------->
     <form action="/save" method="get" id="form1">
         <div class="container-fluid bg-info">
             <div class="modal-dialog">
@@ -456,21 +452,16 @@
         </div>
     </form>
 </body>
+
 <script>
   // Set the date we're counting down to
-
-
   var countDownDate = new Date("{{Session('time')}}").getTime();
-
   // Update the count down every 1 second
   var x = setInterval(function() {
-
     // Get today's date and time
     var now = new Date().getTime();
-
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
-
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -489,14 +480,8 @@
       document.getElementById("demo").innerHTML = "EXPIRED";
     }
   }, 1000);
-</script>
 
-
-
-<script>
   function display() {
-
-
     // new
     let rates = document.getElementsByName('answer');
     rates.forEach((rate) => {
@@ -504,12 +489,6 @@
         document.getElementById('register').removeAttribute('disabled');
       }
     });
-
-   
   }
-
-
-
-  // new script
 </script>
 </html>

@@ -391,10 +391,6 @@
 </style>
 
 <body>
-
-
-
-    <!------ Include the above in your HEAD tag ---------->
     <form action="/save" method="get" id="form1">
         <div class="container-fluid bg-info">
             <div class="modal-dialog">
@@ -439,5 +435,4 @@
         </div>
     </form>
 </body>
-
 </html>
